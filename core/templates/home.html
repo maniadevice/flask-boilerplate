@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{# The blocks written here will replace the blocks
+in base.html. if super() is called, the block from
+base.html will be inserted first and then 
+the new block will be replaced #}
+{% block title %} Home {% endblock title %}
+
+{% block head %}
+{{ super() }}
+{% endblock head %}
+
+{# body begins #}
+{% block content %}
+<div>
+<p>Hello World</p>
+</div>
+{% endblock content %}
+
+{% block footer %} 
+{{ super() }} 
+{% endblock %}
