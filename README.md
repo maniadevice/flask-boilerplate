@@ -1,8 +1,6 @@
 ### Environment Requirements
-* pyenv
-- [Installation](https://github.com/pyenv/pyenv#installation)
-* pipenv
-- [Installation](https://pipenv.readthedocs.io/en/latest/install/#pragmatic-installation-of-pipenv)
+* pyenv ([Installation](https://github.com/pyenv/pyenv#installation))
+* pipenv ([Installation](https://pipenv.readthedocs.io/en/latest/install/#pragmatic-installation-of-pipenv))
 
 ### Instructions
 * Open Pipfile and edit the python_version that you require for this project. If you do edit the version number, make sure that you have verified that the dependencies you're going to install are compatible with the python version.
